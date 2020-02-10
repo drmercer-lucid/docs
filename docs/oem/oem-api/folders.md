@@ -31,7 +31,7 @@ POST /api/managed_users/:id/folders
 #### Sample request
 
 ```shell
-curl  -X POST https://www.workato.com/api/managed_users/91892/folders \
+curl  -X POST https://www.workato.com/api/managed_users/91892/folders?name=My%20Folder \
       -H 'x-user-email: <email>' \
       -H 'x-user-token: <token>'
 ```
