@@ -25,7 +25,7 @@ POST /api/managed_users/:id/folders
 
 | Name | Type | Description |
 |------|------|-------------|
-| folder_name | **string**<br>_required_ | Name of the folder. |
+| name | **string**<br>_required_ | Name of the folder. |
 {.api-input}
 
 #### Sample request
